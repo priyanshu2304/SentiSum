@@ -13,12 +13,26 @@
 
 .pageContent {
     /* padding: 16px; */
-    overflow-y: auto;
     height: 100%;
+    width: 100%;
+
 }
 
 @media (max-width: 768px) {
     .mainContent {
         width: 75%;
+    }
+
+    .pageContent {
+        width: 90%;
+        overflow-x: scroll;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+
+        scroll-behavior: smooth;
+    }
+
+    .pageContent::-webkit-scrollbar {
+        display: none;
     }
 }

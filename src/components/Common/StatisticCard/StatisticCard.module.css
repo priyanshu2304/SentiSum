@@ -4,7 +4,7 @@
     padding: 24px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
     font-family: sans-serif;
-    margin: 16px
+    margin: 16px;
 }
 
 .header {
@@ -107,5 +107,9 @@
     .card {
         flex: 0 0 auto;
         min-width: 240px;
+    }
+
+    .statCard {
+        margin-right: 0px;
     }
 }
