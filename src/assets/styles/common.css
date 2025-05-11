@@ -1,0 +1,29 @@
+.flex-column {
+    flex-direction: column;
+}
+
+.d-flex-responsive {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .d-flex-responsive {
+        flex-direction: column;
+    }
+
+    .mob-margin-bottom-50 {
+        margin-bottom: 100px;
+    }
+}
+
+.gap-4 {
+    gap: 8px
+}
+
+.gap-5 {
+    gap: 10px
+}
+
+.mt-5 {
+    margin-top: 10px;
+}

@@ -1,0 +1,51 @@
+.stat-report-container {
+    width: 100%;
+    margin: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    font-family: sans-serif;
+    background: #fff;
+}
+
+.header {
+    padding: 16px;
+    border-bottom: 1px solid #eee;
+}
+
+.stat-table {
+    display: flex;
+    flex-direction: column;
+}
+
+.table-header,
+.table-row {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+}
+
+.table-header {
+    font-weight: 600;
+    color: #6b7280;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-row {
+    font-weight: 500;
+}
+
+.col {
+    flex: 1;
+}
+
+.tag {
+    flex: 2;
+}
+
+.trend-icon.up {
+    color: red;
+}
+
+.trend-icon.down {
+    color: green;
+}
