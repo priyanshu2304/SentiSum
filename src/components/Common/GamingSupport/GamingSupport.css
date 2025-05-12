@@ -32,6 +32,13 @@
 
 .table-row {
     font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+
+}
+
+.table-row:hover {
+    background-color: #e0e0e0 !important;
 }
 
 .col {
