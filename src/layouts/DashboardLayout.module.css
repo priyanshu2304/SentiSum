@@ -15,7 +15,7 @@
     /* padding: 16px; */
     height: 100%;
     width: 100%;
-
+    overflow: scroll;
 }
 
 @media (max-width: 768px) {
